@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.mydiv {
+    background-image: linear-gradient(rgb(84, 16, 16), rgb(255, 255, 218));
+    width: 100%;
+    height:100vh;
+    display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+  }
+
+
+.item {
+    float: left;
+    
+  }
+
+  .item1 { background-image: linear-gradient(#ffffda, #541010); } 
+  .item2 { background-image: linear-gradient(#541010, #ffffda); height: 40%; } 
+  .item3 { background-image: radial-gradient( #ffffda, #541010, #212230);} 
+  .item4 { background-image: radial-gradient(#541010,#ffffda) }
+  .item5 { background-image: radial-gradient(#212230, #ffffda, #212230) } 
+  .item6 { background-image:radial-gradient( farthest-side at 20% 90%,#ffffda, #541010,#ffffda); } 
+  .item7 { background-image: conic-gradient(#541010, #ffffda, #212230) } 
+  .item8 { background-image: linear-gradient(#541010, #ffffda); width: 40%; }
+  .item9 { background-image: conic-gradient(from 270deg,#541010, #ffffda, #212230) }
+  .item10 { background-image:radial-gradient( farthest-side at 20% 30%,#ffffda, #541010,#ffffda);}
+  .item11 {background-image: radial-gradient( #ffffda, #541010, #212230); }
+  .item12 { background-image: linear-gradient(#541010, #ffffda); height: 40%; }
+  .item14 { background-image:radial-gradient( farthest-side at 20% 90%,#ffffda, #541010,#ffffda); }
+  .item15 { background-image:radial-gradient( closest-side at 40% 30%,#ffffda, #541010,#280404);}
+    .item16 { background-image: radial-gradient(#212230, #ffffda, #541010)  }
+    .item17 { background-image: radial-gradient(#541010,#ffffda ) }
+    .item18 { background-image: repeating-linear-gradient(#541010, #ffffda) }

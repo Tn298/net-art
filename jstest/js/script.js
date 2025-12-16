@@ -1,13 +1,10 @@
-// Select elements
 const message = document.getElementById("message");
 const button = document.getElementById("changeBtn");
 
-// Track current mode
 let mode = 0;
 let firstClick = true;
 
 
-// Dark gradient modes
 const modes = [
   {
     background: "linear-gradient(135deg,rgb(181, 34, 176),rgb(249, 163, 163),rgb(209, 183, 53))",

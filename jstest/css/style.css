@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    margin: 0;
+  
+    background: linear-gradient(135deg, #111, #222);
+    color: #9aa0ff; /* FIRST PAGE text color */
+    transition: background 1s ease, color 1s ease;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
